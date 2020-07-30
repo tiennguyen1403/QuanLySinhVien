@@ -2,6 +2,10 @@
 var svService = new SinhVienSerVice();
 
 
+var xoaSinhVien = function() {
+    console.log('xoa sv!');
+}
+
 var renderSinhVien = function(){
     var promise = svService.layDanhSachSinhVien();
 
@@ -83,3 +87,10 @@ var xoaSV = function(MaSV){
 const ThemDiaChiSV = function(){
     console.log("address");
   }
+
+
+//userA
+var capNhatSinhVien = function(id, sinhVienUpdate){
+    console.log('Cập nhật sinh viên' + id)
+}
+>>>>>>> 050bf6d89827648c477e50f7feec2c8cb12a5287
