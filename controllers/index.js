@@ -93,7 +93,3 @@ const ThemDiaChiSV = function(){
 var capNhatSinhVien = function(id, sinhVienUpdate){
     console.log('Cập nhật sinh viên' + id)
 }
-
-var showMessage = function(){
-    console.log('abc');
-}
