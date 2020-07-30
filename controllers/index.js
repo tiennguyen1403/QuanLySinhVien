@@ -90,3 +90,7 @@ var xoaSV = function(MaSV){
 var capNhatSinhVien = function(id, sinhVienUpdate){
     console.log('Cập nhật sinh viên' + id)
 }
+
+var testPushBranch = function(){
+    console.log('ahihi');
+}
