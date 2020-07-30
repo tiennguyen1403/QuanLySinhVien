@@ -80,3 +80,9 @@ var xoaSV = function(MaSV){
         console.log(error.response.data)
     })
 }
+
+
+//userA
+var capNhatSinhVien = function(id, sinhVienUpdate){
+    console.log('Cập nhật sinh viên' + id)
+}
