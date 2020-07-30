@@ -93,4 +93,3 @@ const ThemDiaChiSV = function(){
 var capNhatSinhVien = function(id, sinhVienUpdate){
     console.log('Cập nhật sinh viên' + id)
 }
->>>>>>> 050bf6d89827648c477e50f7feec2c8cb12a5287
