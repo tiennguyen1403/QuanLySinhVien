@@ -7,6 +7,10 @@ var SinhVienSerVice = function(){
         })
     }
 
+    var ThemSinhVien = function() {
+        console.log('thêm sv!');
+    }
+
     this.xoa = function(MaSV){
         return axios({
             url: 'http://svcy.myclass.vn/api/SinhVien/XoaSinhVien/'+MaSV,

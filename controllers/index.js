@@ -2,6 +2,10 @@
 var svService = new SinhVienSerVice();
 
 
+var xoaSinhVien = function() {
+    console.log('xoa sv!');
+}
+
 var renderSinhVien = function(){
     var promise = svService.layDanhSachSinhVien();
 
