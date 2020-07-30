@@ -93,4 +93,5 @@ var capNhatSinhVien = function(id, sinhVienUpdate){
 
 var testPushBranch = function(){
     console.log('ahihi');
+    console.log('haha')
 }
